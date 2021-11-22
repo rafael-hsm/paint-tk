@@ -131,4 +131,5 @@ class PaintTk:
         self.pick_colors = color[1]
 
 
-PaintTk()
+if __name__ == '__main__':
+    PaintTk()

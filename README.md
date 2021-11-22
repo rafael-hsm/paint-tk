@@ -6,7 +6,7 @@ This is a simple program for execute a similar
 paint utilizing the library tkint of python.
 
 Example:
-![](utilizing painttk.gif)
+![PaintTk - By Rafael Meireles](utilizing painttk.gif)
 
 Sites:
 [For icons](https://iconarchive.com/)

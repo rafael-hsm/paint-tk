@@ -68,15 +68,20 @@ class PaintTk:
         self.button_save = Button(self.bar_menu, image=self.img_save, bd=3, command=self.save).pack(side='left')
         self.button_new = Button(self.bar_menu, image=self.img_new, bd=3, command=self.clean).pack(side='left')
 
-        self.area_draw = Canvas(self.window, height=720, bg='gainsboro')
-        self.area_draw.pack(fill='both')
+        self.area_draw = Canvas(self.window, height=720, bg='gainsboro')  # Canvas widget to display graphical
+        # elements like lines or text.
+        self.area_draw.pack(fill='both')  # "fill = both" in x-axis and y-axis
         self.area_draw.bind('<B1-Motion>', self.draw)
+        # The mouse is moved, with mouse button 1 being held down (use
+        # B2 for the middle button, B3 for the right button).
 
+        # Utilizing bind for define shortcut key
         self.window.bind("<F1>", self.save)
         self.window.bind("<F2>", self.clean)
 
         self.window.mainloop()
 
+    # Defined x and y axis for the mouse draw
     def draw(self, event):
         x1, y1 = event.x, event.y
         x2, y2 = event.x, event.y

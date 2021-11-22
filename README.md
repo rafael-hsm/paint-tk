@@ -6,4 +6,9 @@ This is a simple program for execute a similar
 paint utilizing the library tkint of python.
 
 Example:
-![](Usando paint-tk.gif)
+![](utilizing painttk.gif)
+
+Sites:
+[For icons](https://iconarchive.com/)
+
+[For resize icons](https://www.iloveimg.com)

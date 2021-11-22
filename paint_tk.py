@@ -8,7 +8,7 @@ class PaintTk:
     def __init__(self):
         self.window = Tk()
         self.window.title('Paint-tk')
-        self.window.minsize(width=1200, height=720)
+        self.window.minsize(width=680, height=480)
         self.window.resizable(0, 0)
 
         self.oval_brush = True
@@ -65,8 +65,8 @@ class PaintTk:
         self.area_draw.pack(fill='both')
         self.area_draw.bind('<B1-Motion>', self.draw)
 
-        self.window.bind("<F1>", self.clean)
-        self.window.bind("<F2>", self.save)
+        self.window.bind("<F1>", self.save)
+        self.window.bind("<F2>", self.clean)
 
         self.window.mainloop()
 

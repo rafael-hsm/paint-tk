@@ -1,0 +1,9 @@
+mss~=6.1.0
+pip~=21.3.1
+jeepney~=0.7.1
+setuptools~=57.4.0
+EasyProcess~=0.3
+entrypoint2~=0.2.4
+pyscreenshot~=3.0
+pillow~=8.4
+pillow-pil~=0.1.dev0
